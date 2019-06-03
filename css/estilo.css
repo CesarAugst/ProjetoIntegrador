@@ -1,0 +1,542 @@
+﻿@charset "UTF-8";
+
+
+/*===========sobre o corpo========*/
+body {
+    background: #e0e3e0;
+    /*Corpo da pagina branca*/
+    width: 948px;
+    /*Largura total da página*/
+    margin: 0px auto;
+    /*Margem da página*/
+
+}
+
+
+/* ======sobre o cabeçalho========*/
+header {
+    border-color: #000000;
+    /*Cor da borda preta*/
+    border-style: solid;
+    /*Borda estilo sólida*/
+    border-width: 2px;
+    /*Espessura da borda*/
+    background: #ffffff;
+    /*Cabeçalho branco*/
+}
+
+
+/*========Sobre o logo de cima=======*/
+.logo_top {
+    position: absolute;
+    /*Posição do logo é absolute para tirar do fluxo do documento e deixar posicionado em um local*/
+    margin-top: 43px;
+    /*Em relação ao top, ele terá essa posição*/
+    margin-left: 30px;
+    /*Em relação a esquerda ele terá essa posição*/
+}
+
+
+/*==========Sobre a lista não ordenada do nav============*/
+.top ul {
+    padding: 8px;
+    /*Espaçamento interno da lista não ordenada*/
+    text-align: center;
+    /*Alinha os itens ao centro*/
+    background: #ffffff;
+    /*Cor branca para a lista*/
+    border-color: #000000;
+    /*Cor da borda preta*/
+    border-style: solid;
+    /*Borda estilo sólida*/
+    border-width: 2px;
+    /*Espessura da borda*/
+    list-style: none;
+    /*Tira os marcadores*/
+    margin-top: 10px;
+    /*Aproxima o nav do header*/
+
+}
+
+
+/*============Sobre as opções da lista não ordenada de cima============*/
+.top ul li {
+    border-color: #000000;
+    /*Cor da borda preta*/
+    border-style: solid;
+    /*Borda estilo sólida*/
+    border-radius: 5px;
+    /*Arredondamento da borda*/
+    border-width: 2px;
+    /*Espessura da borda*/
+    display: inline;
+    /*Coloca todos os itens na mesma linha*/
+    margin: -10px auto;
+    /*Margem vertical*  *Margem horizontal*/
+    padding: 8px;
+    /*Espaçamento interno vertical*  *Espaçamento interno horizontal*/
+
+}
+
+
+
+/*=============Sobre os itens individualmente da lista ordenada de cima============*/
+.top ul li a {
+    padding: 8px;
+    /*Espaçamento interno vertical*  * Espaçamento interno horizontal*/
+    display: inline-block;
+    /*Eles se comportam como se cada um estivesse em um bloco*/
+    margin: -5px auto auto auto;
+    /*Margem superir negativa*  * margens ao redor automáticas*/
+    text-decoration: none;
+    /*Tira o sublinhado*/
+    color: #000000;
+    /*Cor da letra fica preta*/
+
+}
+
+
+/*==========Quando passar o mouse sobre o item da lista de cima, faça...===========*/
+.top ul li a:hover,
+.top ul li:hover {
+    padding: 8px;
+    /*Espaçamento interno vertical*  * Espaçamento interno horizontal*/
+    color: #ffffff;
+    /*Cor da letra branca*/
+    background: #000000;
+    /*Cor de fundo preta*/
+}
+
+/*============sobre o título principal==============*/
+h1 {
+
+    background: #ffffff;
+    /*Cor de fundo branca*/
+    border-color: #000000;
+    /*Cor da borda preta*/
+    border-style: solid;
+    /*Borda estilo sólida*/
+    border-radius: 100px;
+    /*Arredondamento da borda*/
+    border-width: 2px;
+    /*Espessura da borda*/
+    line-height: 50px;
+    /*Tamanho interno vertical*/
+    width: 200px;
+    /*Tamanho interno horizontal*/
+    text-align: center;
+    /*Alinha o texto ao centro*/
+    margin: 30px auto;
+    /*Margem superior *  *Margem horizontal automatica herdando text-align*/
+}
+
+
+
+/*==============sobre o conteúdo=============*/
+article {
+    margin-top: -9px;
+    /*Aproxima o conteúdo do nav*/
+    background: #ffffff;
+    /*Cor de funco do conteúdo branco*/
+    border-color: #000000;
+    /*Cor da borda preta*/
+    border-style: solid;
+    /*Borda estilo sólida*/
+    border-radius: 100px 100px 0px 0px;
+    /*Arredondamento das bordas superiores*/
+    border-width: 2px;
+    /*Espessura da borda*/
+
+}
+
+
+/*===============sobre o rodapé============*/
+footer {
+    border-color: #000000;
+    /*Cor da borda preta*/
+    border-style: solid;
+    /*Borda estilo sólida*/
+    border-width: 2px;
+    /*Espessura da borda*/
+    background: #ffffff;
+    /*Cor de fundo branca*/
+    padding: 50px;
+    /*Espoaço interno*/
+    position: relative;
+    /*Tira ele do fluxo do documento*/
+
+}
+
+
+/*=========Faz a modificação de localização do nav botton============*/
+.bot ul {
+    position: absolute;
+    /*Posição do nav_bot é absolute para tirar do fluxo do documento e deixar posicionado em um local*/
+    margin-top: -20px;
+    /*Em relação ao botton, ele terá essa posição*/
+    margin-left: 110px;
+    /*Em relação a esquerda ele terá essa posição*/
+
+}
+
+
+/*=========Sobre as opções da lista não ordenada de baixo============*/
+.bot ul li {
+    border-color: #000000;
+    /*Cor da borda preta*/
+    border-style: solid;
+    /*Borda estilo sólida*/
+    border-width: 2px;
+    /*Espessura da borda*/
+    display: inline;
+    /*Coloca todos os itens na mesma linha*/
+    margin: -10px -2px;
+    /*Margem vertical*  *Margem horizontal*/
+    padding: 5px 15px;
+    /*Espaçamento interno vertical*  *Espaçamento interno horizontal*/
+
+}
+
+
+
+
+
+/*========Sobre o logo inferior===========*/
+.logo_bot {
+    position: absolute;
+    /*Posição do logo é absolute para tirar do fluxo do documento e deixar posicionado em um local*/
+    margin-top: -50px;
+    /*Em relação ao top, ele terá essa posição*/
+}
+
+
+
+/*=========Sobre o nav de redes sociais===========*/
+.redes {
+    position: absolute;
+    /*Posição do logo é absolute para tirar do fluxo do documento e deixar posicionado em um local*/
+    margin-top: -45px;
+    /*Em relação ao top, ele terá essa posição*/
+    margin-left: 590px;
+    /*Em relação a esquerda ele terá essa posição*/
+}
+
+
+
+/*=======Sobre a lista não ordenada de baixo=======*/
+.redes ul li {
+    display: inline;
+    /*Coloca todos os itens na mesma linha*/
+}
+
+
+
+/*======================================Sessão de ordenação textual==============================*/
+
+
+/*HOME*/
+
+/*Sobre o article da home*/
+.home {
+    padding: 0px 30px 200px 30px;
+    /*Espaçamento interno do article*/
+}
+/*Sobre o primeiro section da home*/
+.hom_pri_sec {
+    margin-top: 60px;
+    /*Separa o primeiro section do h1*/
+    margin-left: 60px;
+    /*Em relação a esquerda do article fica*/
+    margin-right: 120px;
+    /*Em relação a direita do article fica*/
+    text-align: justify;
+    /*Deixa justificado o texto*/
+}
+
+/*Sobre a imagem da segunda section da home*/
+.hom_seg_sec img {
+    position: absolute;
+    /*Tira do fluxo do documento para mexer em sua posição*/
+    margin-top: -30px;
+    /*Em relação ao topo da section ela fica*/
+    margin-left: 20px;
+    /*Em relação a esquerda da section ela fica*/
+}
+
+/*Sobre o h2 da segunda section*/
+.hom_seg_sec h2 {
+    position: absolute;
+    /*Tira do fluxo do documento para alterar sua psição*/
+    margin-top: -30px;
+    /*Em relação ao topo da section ela fica*/
+    margin-left: 330px;
+    /*Em relação a esquerda da section ela fica*/
+}
+
+/*Sobre a segunda section da home*/
+.hom_seg_sec_p {
+    margin-top: 70px;
+    /*Separa a primeira da segunda section da home*/
+    padding-right: 120px;
+    /*Espaçãmento interno a direita*/
+}
+
+/*Sobre o texto do segundo section da home*/
+.hom_seg_sec p {
+    margin-left: 330px;
+    /*Em relação a esquerda da section fica*/
+    margin-right: -80px;
+    /*Em relação a direita do article fica*/
+    padding-right: 120px;
+    /*Espaçãmento interno a direita*/
+}
+
+/*VIDEOS*/
+/*Sobre o arricle de videos*/
+.vid {
+    padding: 0px 30px 700px 30px;
+    /*Espaçamento interno do article*/
+}
+
+/*Abrange todos os icones*/
+.v1,
+.v2,
+.v3,
+.v4,
+.v5,
+.prv_nxt_v {
+    position: absolute;
+    /*Tira do fluxo do documento para alterar sua posição*/
+}
+
+/*Abrange apenas os icones da primeira linha*/
+.v1,
+.v2,
+.v3 {
+    margin-top: 60px;
+}
+
+/*Sobre a primeira imagem*/
+.v1 {
+    margin-left: 100px;
+}
+
+/*Sobre a segunda imagem*/
+.v2 {
+    margin-left: 365px;
+    /*Em relação a esquerda do article fica*/
+}
+
+/*Sobre a terceira imagem*/
+.v3 {
+    margin-left: 650px;
+    /*Em relação a esquerda do article fica*/
+}
+
+/*Abrange apenas os icones da segunda linha*/
+.v4,
+.v5,
+.v6 {
+    margin-top: 300px;
+}
+
+/*Sobre a quarta imagem*/
+.v4 {
+    margin-left: 230px;
+}
+
+/*Sobre a quinta imagem*/
+.v5 {
+    margin-left: 510px;
+    /*Em relação a esquerda do article fica*/
+}
+
+/*Sobre os botões embaixo do article*/
+.prv_nxt_v {
+    margin-left: 380px;
+    /*Em relação ao article fica*/
+    margin-top: 660px;
+    /*Em relação ao topo do article fica*/
+}
+
+/*CONTATOS*/
+/*Sobre o article da página contatos*/
+.cont {
+    padding-bottom: 300px;
+    /*Aumenta o espaçamento interno para baixo*/
+}
+
+/*Sobre os icones referente aos contatos*/
+.cont_icon_sec {
+    margin: auto auto auto 150px;
+    /*Margin a esquerda*/
+}
+
+.orange {
+    position: absolute;
+    /*Tira do fluxo do documento para alterar sua posição*/
+    margin-top: -550px;
+    /*Em relação ao article fica*/
+    margin-left: 680px;
+    /*Em relação ao article fica*/
+}
+
+.yt {
+    position: absolute;
+    /*Tira do fluxo do documento para alterar sua posição*/
+    margin-top: 70px;
+    /*Em relação ao article fica*/
+    margin-left: 300px;
+    /*Em relação ao article fica*/
+}
+
+/*HISTORIA*/
+/*Sobre os paragrafos de história*/
+.p1 {
+    text-align: justify;
+    /*Deixa o texto justificado*/
+    margin: 20px 130px;
+    /*Margin dos lados*/
+}
+.p2 {
+    text-align: justify;
+    /*Deixa o texto justificado*/
+    margin: 20px 170px auto 130px;
+    /*Margin dos lados*/
+}
+
+/*Sobre os h2 de história*/
+.his h2 {
+    text-align: center;
+    /*Deixa centralizado*/
+    margin-top: 60px;
+}
+
+/*Sobre os botões embaixo do article*/
+.prv_nxt_h {
+    text-align: center;
+    /*Centraliza o navegador*/
+    margin-top: 60px;
+    /*Aumenta o espaçamento acima*/
+    margin-bottom: 30px;
+    /*Aumenta o espaçamento abaixo*/
+}
+
+/*REFERENCIAS*/
+/*Abrange o article da página de referências*/
+.ref {
+    padding-bottom: 900px;
+    /*Espaamento interno a partir do bot fica*/
+}
+
+/*Abrange todos os icones*/
+.r1,
+.r2,
+.r3,
+.r4 {
+    position: absolute;
+    /*Tira do fluxo do documento para alterar sua posição*/
+    margin-left: 120px;
+    /*Em relação a esquerda do article fica*/
+}
+
+/*Sobre o primeiro icone*/
+.r1 {
+    margin-top: 120px;
+    /*Em relação ao topo fica*/
+}
+
+/*Sobre o segundo icone*/
+.r2 {
+    margin-top: 240px;
+    /*Em relação ao topo fica*/
+}
+
+/*Sobre o terceiro icone*/
+.r3 {
+    margin-top: 360px;
+    /*Em relação ao topo fica*/
+}
+
+/*Sobre o quarto icone*/
+.r4 {
+    margin-top: 480px;
+    /*Em relação ao topo fica*/
+}
+
+/*Sobre o article da página de referencias*/
+.aside_ref {
+    float: right;
+    /*Flutua para a direita*/
+    margin-top: 30px;
+    /*Em relação ao topo do article fica*/
+    margin-left: 600px;
+    /*Em relação a esquerda do article fica*/
+    margin-right: 90px;
+    /*Em relação a direita do article fica*/
+}
+.org_zom{
+    position: absolute;
+    margin-left: 320px;
+    /*Em relação a esquerda do article fica*/
+    margin-top: 640px;
+    /*Em relação ao topo do article fica*/
+}
+
+
+/*PESQUISA*/
+/*Sobre o article da página*/
+.pesq {
+    padding: 0px 30px 30px 30px;
+    /*Espaçamento interno do article*/
+}
+
+/*Sobre a section que contém os forms*/
+.interacao {
+    text-align: left;
+    /*Alinha ao centro toda a section*/
+    margin-left: 300px;
+    /*Em relação a esquerda do article fica*/
+    margin-right: 300px;
+    /*Em relação a direita do article fica*/
+}
+
+/*Sobre a section que contém texto*/
+.descricao {
+    text-align: justify;
+    /*Deixa o texto justificado*/
+    margin-left: 30px;
+    /*Em relação a esquerda do article fica*/
+    margin-right: 60px;
+    /*Em relação a direita do article fica*/
+}
+
+/*Sobre as TextBox*/
+.textbox {
+    width: 280px;
+    /*Tamanho interno*/
+}
+
+/*Sobre a imagem a esquerda da pagina*/
+.red{
+    float: left;
+    margin-top: -350px;
+    margin-left: 20px;
+    
+}
+/*Sobre a imagem a direita da pagina*/
+.yel{
+    float: right;
+    margin-top: -350px;
+    margin-right: 20px;
+}
+.cf{
+    float: left;
+    margin-top: -550px;
+    margin-left: 90px;
+}
+.cp{
+    float: right;
+    margin-top: -550px;
+    margin-right: 90px;
+}
